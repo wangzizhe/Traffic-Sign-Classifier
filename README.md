@@ -80,13 +80,7 @@ Dropout layers after fully connected layers improves the result significantly. W
 
 #### German Traffic Signs
 
-Five German traffic signs found on the web are stored in the following folder ../data/test_images
-
-<img src="../data/test_images/1.png" />
-<img src="../data/test_images/2.png" />
-<img src="../data/test_images/3.png" />
-<img src="../data/test_images/4.png" />
-<img src="../data/test_images/5.png" />
+Five German traffic signs are found on the web and stored in local machine.
 
 For the images, they might be difficult to classify because the background contained many other information as well as some same color as the traffic signs.
 
