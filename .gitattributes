@@ -1,2 +1,2 @@
-*.html linguist_language=python
-*.ipynb linguist_language=python
+*.html linguist-language=python
+*.ipynb linguist-language=python
