@@ -12,7 +12,7 @@ In this project, I use deep neural networks and convolutional neural networks to
 * Explore, summarize and visualize the data set
 * Design, train and test a model architecture
 * Use the model to make predictions on new images
-* Analyze the softmax probabilities of the new images
+* Analyze the Softmax probabilities of the new images
 * Summarize the results with a written report
 
 ## Reflection
@@ -47,15 +47,15 @@ My final model architecture consists of the following layers:
 | :-------------: | :-----------------------------------------: |
 |      Input      |              32x32x3 RGB image              |
 | Convolution 5x5 | 1x1 stride, valid padding, outputs 28x28x6  |
-|      RELU       |                                             |
+|      ReLU       |             Activation function             |
 |   Max pooling   |        2x2 stride,  outputs 14x14x6         |
 | Convolution 5x5 | 1x1 stride, valid padding, outputs 10x10x16 |
-|      RELU       |                                             |
+|      ReLU       |             Activation function             |
 |   Max pooling   |         2x2 stride,  outputs 5x5x16         |
 | Fully connected |            Input 400, output 120            |
-|      RELU       |                                             |
+|      ReLU       |             Activation function             |
 | Fully connected |            Input 120, output 84             |
-|      RELU       |                                             |
+|      ReLU       |             Activation function             |
 | Fully connected |             Input 84, output 43             |
 |     Softmax     |                   Output                    |
 
